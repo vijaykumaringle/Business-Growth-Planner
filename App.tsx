@@ -1,4 +1,3 @@
-
 import React, { useState, useCallback } from 'react';
 import BusinessForm from './components/BusinessForm';
 import ReportDisplay from './components/ReportDisplay';
@@ -48,6 +47,7 @@ const App: React.FC = () => {
             </main>
             
             <footer className="text-center py-6 mt-8">
+                <p className="text-sm text-gray-500 mb-1">Developed by Vijaykumar Ingle</p>
                 <p className="text-sm text-gray-500">Powered by Gemini API</p>
             </footer>
         </div>
